@@ -1,0 +1,18 @@
+{
+  "name": "node-https-ssl",
+  "description": "Automatically creates (trusted) SSL certificates for your node HTTPS servers",
+  "tags": ["https", "ssl", "node", "express", "next"],
+  "version": "1.0.0",
+  "main": "src/certificates.js",
+  "license": "MIT",
+  "devDependencies": {
+    "express": "^4.16.4",
+    "get-ssl-certificate": "^2.2.1"
+  },
+  "scripts": {
+    "test": "node test/index.js"
+  },
+  "dependencies": {
+    "node-forge": "^0.7.6"
+  }
+}
